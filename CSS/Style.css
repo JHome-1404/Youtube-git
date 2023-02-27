@@ -7,101 +7,294 @@
 }
 
 body {
-  font-family: sans-serif;
+  /* background-color: #1e2524; */
   font-size: 16px;
   font-weight: bold;
   margin: 0;
   font-family: "Raleway";
-  font-display: swap;
+  margin: 0%;
+  padding: 0%;
 }
+
+/* --- Header --- */
 
 header {
   width: 100%;
   height: auto;
-  background-color: #333;
-  color: white;
-  padding: 2rem;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+
+.header-container {
+  background-color: #000000;
   font-size: 1.5rem;
+  color: #fff;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav li {
-  display: inline-block;
-  margin-right: 1rem;
+header nav {
+  background-color: #000000b9;
+  font-size: 1.8rem;
+  padding: 15px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
 }
 
 nav a {
-  color: white;
   text-decoration: none;
+  color: #fff;
 }
+
+nav a:hover {
+  color: #000;
+}
+
+nav a:focus {
+  color: #000000b9;
+}
+
+nav select {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-family: "Raleway";
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+nav option {
+  background-color: #fff;
+  color: #000;
+  font-size: 1.5rem;
+}
+
+nav option:disabled {
+  background-color: #d1d1d1;
+  color: #525252;
+}
+
+/* --- Main --- */
 
 main {
-  padding: 0%;
-}
-
-.destacado {
-  background-color: #f0f0f0;
-  padding: 0.5em;
-  text-align: center;
-  font-size: 1.4rem;
-}
-
-.contenido {
+  background-color: #fff;
   width: 100%;
-  height: 20em;
+  height: auto;
   padding: 40px;
-  font-size: 1.2rem;
+  padding-top: 210px;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 8%;
 }
 
-.contenido h2 {
-  margin-top: 0;
+/* Form */
+
+form {
+  text-align: center;
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
 }
 
-footer {
-  background-color: #333;
-  color: white;
-  padding: 2rem;
+form h2 {
+  margin: 20px 0px;
+  margin-top: 0px;
+  font-size: 2.5rem;
+}
+
+form legend {
   font-size: 1.5rem;
   text-align: center;
 }
 
-/* Media queries para pantallas más grandes */
+form fieldset {
+  border: solid 3px #d1d1d1;
+  padding: 20px;
+  margin-bottom: 20px;
+}
 
-@media screen and (max-width: 768px) {
-  header {
-    padding: 2rem;
+form label {
+  font-size: 1.3rem;
+}
+
+.dropdown {
+  background-color: #e9e9e9;
+  color: #525252;
+  width: 20rem;
+  height: 1.8rem;
+  font-family: "Raleway";
+  font-size: 1.2rem;
+}
+
+.dropdown *[value] {
+  background-color: #fff;
+  color: #525252;
+  font-size: 1.2rem;
+}
+
+.dropdown *:disabled {
+  background-color: #d1d1d1;
+  color: #525252;
+}
+
+form textarea {
+  background-color: #e9e9e9;
+  width: 50%;
+  height: 8em;
+  font-family: "Raleway";
+  font-size: 1.2rem;
+}
+
+input[type="email"],
+input[type="password"] {
+  background-color: #e9e9e9;
+  margin: 0px 10px;
+  width: 20rem;
+  height: 1.8em;
+  margin-bottom: 20px;
+  font-family: "Raleway";
+  font-size: 1.2rem;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  background-color: #000;
+  color: #fff;
+  font-family: "Raleway";
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 30%;
+  height: 3em;
+}
+
+/* --- Footer --- */
+
+footer {
+  background-color: #000;
+  color: #fff;
+  font-size: 2rem;
+  width: 100%;
+  padding: 20px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ---- Decoracion --- */
+
+/* fieldset *[required]:invalid {
+  border: solid medium red;
+} */
+
+fieldset *[required]:empty {
+  border: solid medium #d1d1d1;
+}
+
+fieldset *[required]:valid {
+  border: solid medium greenyellow;
+}
+
+fieldset input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #fff;
+  color: #000;
+  border: solid medium #000;
+}
+
+fieldset *[required]:hover {
+  background-color: #fff;
+  color: #000;
+  border: solid medium #000;
+}
+
+/* --- Responsive --- */
+
+@media screen and (max-width: 1222px) {
+  .header-container {
+    font-size: 1.2rem;
+    height: auto;
+  }
+
+  header nav {
+    font-size: 1.4rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  nav select {
+    font-size: 1.4rem;
+  }
+
+  nav option {
     font-size: 1.2rem;
   }
 
-  nav li {
-    margin-right: 2rem;
-  }
-
-  .destacado {
-    flex-basis: 100%;
-    padding: 20px;
-    font-size: 1rem;
-  }
-
-  .contenido {
-    flex-basis: 50%;
+  main {
+    width: 100%;
     height: auto;
-    padding: 40px;
-    font-size: 1rem;
+    padding-top: 180px;
+  }
+
+  form fieldset {
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  form legend {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  form label {
+    font-size: 1.1rem;
+  }
+
+  .dropdown {
+    width: 80%;
+    height: 2em;
+  }
+
+  form textarea {
+    width: 100%;
+    height: 10em;
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    width: 80%;
+    margin: 10px 0px;
+    height: 3rem;
+    margin-bottom: 20px;
+  }
+
+  input[type="submit"],
+  input[type="reset"] {
+    font-size: 1.4rem;
+    width: 90%;
+    height: 3em;
+    margin-top: 20px;
   }
 
   footer {
-    padding: 2rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    width: 100%;
+    padding: 10px;
   }
 }
