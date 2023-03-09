@@ -1,0 +1,180 @@
+commit 638f2a9967b6afab4c0e601610cf84399a0eb59a
+Author: Home <jesushome1404@gmail.com>
+Date:   Thu Mar 9 07:30:53 2023 -0500
+
+    Agregando mas enlaces
+
+commit 92d3c7e825429ce27ea10e2d821e07380e9cde6b
+Merge: 6308811 fe90706
+Author: Home <jesushome1404@gmail.com>
+Date:   Thu Mar 9 07:26:51 2023 -0500
+
+    Resolviendo Conflicto Cambio Commit
+
+commit 630881134b69f6539f236d3659603eb950d2579f
+Merge: d8d7043 ef40936
+Author: Home <jesushome1404@gmail.com>
+Date:   Tue Feb 28 11:38:45 2023 -0500
+
+    Cambios en Git con @jonmircha
+
+commit fe90706d26119c92e8d13778d4902d1e19a2f5f9
+Merge: d8d7043 ef40936
+Author: Home <jesushome1404@gmail.com>
+Date:   Tue Feb 28 11:38:45 2023 -0500
+
+    Resolviendo Conflicto en Cambio Commit
+
+commit d8d7043ac956341a823d93a3dce34e4933a6c784
+Author: Home <jesushome1404@gmail.com>
+Date:   Tue Feb 28 11:08:03 2023 -0500
+
+    Quitando Tres enlaces anteriores
+
+commit ef40936db5e1730556e59fa7578721e79515d2d6
+Author: Home <jesushome1404@gmail.com>
+Date:   Tue Feb 28 11:08:03 2023 -0500
+
+    Quitando Select en Index.html
+
+commit 6cef36562dd1b55668dca3d835eee3bd0c6ff127
+Merge: 0bf4523 310e19e
+Author: Home <jesushome1404@gmail.com>
+Date:   Tue Feb 28 10:53:30 2023 -0500
+
+    Resolviendo Conflicto merge en Index.html
+
+commit 310e19ef33f881727e0a0fd6a0cc28b1b78e27cb
+Author: Home <jesushome1404@gmail.com>
+Date:   Tue Feb 28 10:15:04 2023 -0500
+
+    Index.js
+
+commit 7564499761cf882138c29d7fdf42f37a904af3cd
+Author: Home <jesushome1404@gmail.com>
+Date:   Tue Feb 28 10:13:22 2023 -0500
+
+    NADA
+
+commit 02d3ce09bb5ab15f2371004d9107e03b3df52994
+Author: Home <jesushome1404@gmail.com>
+Date:   Tue Feb 28 10:12:31 2023 -0500
+
+    Tittle
+
+commit 0bf4523832803431d2f68013ec6cfbc4e1cf1039
+Author: Home <jesushome1404@gmail.com>
+Date:   Tue Feb 28 10:11:24 2023 -0500
+
+    Cambiando Title Index.html
+
+commit 12d320e55ca168cf95a70d8c9de0d44cf9925f15
+Author: Home <jesushome1404@gmail.com>
+Date:   Tue Feb 28 07:25:58 2023 -0500
+
+    FUSION
+
+commit a77fb143f47e0e8a5e0bda8dcc8002e90607d322
+Merge: 311c02d db950d7
+Author: Home <jesushome1404@gmail.com>
+Date:   Tue Feb 28 07:23:33 2023 -0500
+
+    Merge branch 'js'
+
+commit 311c02dbb05ed4d066f13f6fbf5393c44b2ea3a5
+Merge: c310d3a 21b7b62
+Author: Home <jesushome1404@gmail.com>
+Date:   Tue Feb 28 07:23:07 2023 -0500
+
+    Merge branch 'css'
+
+commit c310d3a1f6f1553f8db26112a5d83b5766387041
+Merge: 63d79f1 280bfb7
+Author: Home <jesushome1404@gmail.com>
+Date:   Tue Feb 28 07:19:17 2023 -0500
+
+    NADA
+
+commit db950d7711cebd4900bb8405b796efc16cd33ead
+Author: Home <jesushome1404@gmail.com>
+Date:   Tue Feb 28 06:59:35 2023 -0500
+
+    Crando Index.js
+
+commit 21b7b62130a9156ebc7df768773e05e3c21f0ea5
+Author: Home <jesushome1404@gmail.com>
+Date:   Tue Feb 28 06:46:47 2023 -0500
+
+    Creando Style.css
+
+commit 280bfb7154fbb9bda3c1e8ed943f43489d8f586b
+Author: Home <jesushome1404@gmail.com>
+Date:   Tue Feb 28 06:40:32 2023 -0500
+
+    Creando Index.html
+
+commit 63d79f1df621a850975146a4359c2271c3941a76
+Author: Home <jesushome1404@gmail.com>
+Date:   Tue Feb 28 06:31:13 2023 -0500
+
+    NADA
+
+commit 32a1e97f7f3f5d4f93b61b30ec1614c038594a7e
+Author: Home <jesushome1404@gmail.com>
+Date:   Mon Feb 27 10:51:33 2023 -0500
+
+    Nada
+
+commit f991c0bee2172f3530f5538c71990c6441600130
+Author: Home <jesushome1404@gmail.com>
+Date:   Mon Feb 27 10:49:02 2023 -0500
+
+    Creando Index.html
+
+commit 32f63bcbac81a2e27ad19f1d7f7dbcfba5f04467
+Author: Home <jesushome1404@gmail.com>
+Date:   Mon Feb 27 10:46:23 2023 -0500
+
+    Eliminando html y css para otra rama
+
+commit 870f8e893a03ae5c4b5c407a6bd22ee53c1f502c
+Author: Home <jesushome1404@gmail.com>
+Date:   Mon Feb 27 10:15:16 2023 -0500
+
+    Ignorando Archivos .exe
+
+commit b7bc61914a95cf97ab5d7838a97dd76ca07da8df
+Author: Home <jesushome1404@gmail.com>
+Date:   Mon Feb 27 10:10:35 2023 -0500
+
+    Cambio de Pagina HTML a Formulario
+
+commit 1c8b1a40f1240b55395f18873681ed7a60ead30b
+Author: JHome-1404 <106083256+JHome-1404@users.noreply.github.com>
+Date:   Tue Feb 21 10:04:55 2023 -0500
+
+    Creando Licencia del Repositorio
+
+commit 9d4c696c18b0c3b4f63ec5b4215f3821fefbeeff
+Author: Home <jesushome1404@gmail.com>
+Date:   Tue Feb 21 09:53:16 2023 -0500
+
+    Agragando mas Contenido al README.md
+
+commit 2de5efcc6a85c29989f03e99a83412dbaadaa8a0
+Author: Home <jesushome1404@gmail.com>
+Date:   Tue Feb 21 09:20:03 2023 -0500
+
+    Pagina Completa
+
+commit c3dbf30e052f2a6f665f4d50ad29a653119f97ec
+Author: Home <jesushome1404@gmail.com>
+Date:   Tue Feb 21 08:44:35 2023 -0500
+
+    Agragando Contenido al README
+
+commit d5e17287e28597c8f16fbcd016fa587c4fb1c5c5
+Author: Home <jesushome1404@gmail.com>
+Date:   Tue Feb 21 08:32:57 2023 -0500
+
+    Cambio Numero 1
