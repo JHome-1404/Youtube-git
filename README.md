@@ -8,4 +8,4 @@ Agregando mas contenido al README.md.<br>
 
 Este Commit es para Oficializar nuestra Version **1.0.0**. <br>
 
-![Curso de Git @Jonmircha](https://www.youtube.com/watch?v=suzMNqDQiyU&t=13722s)
+[Curso de Git @Jonmircha](https://www.youtube.com/watch?v=suzMNqDQiyU&t=13722s)
